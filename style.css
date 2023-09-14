@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 5000px;
+  overflow-x: hidden;
+  background: lightseagreen;
+}
+
+h1 {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-size: 5em;
+  color: white;
+  left: 1400px;
+}
