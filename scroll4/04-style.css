@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+.holder {
+  background: black;
+  width: 300px;
+  height: 385px;
+  line-height: 30px;
+  overflow: hidden;
+  margin: 140px auto;
+  position: relative;
+  border: 1px solid #7f94a1;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 60px 40px -7px;
+}
+
+.scroll {
+  line-height: 30px;
+  margin-left: 0;
+  padding: 0 0;
+}
+
+.scroll li {
+  text-align: center;
+}
+
+a {
+  color: #7f94a1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 35px;
+}
