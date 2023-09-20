@@ -10,5 +10,9 @@ window.addEventListener("scroll", () => {
   const x = (scrollPercentage / 100) * maxX;
   const y = (scrollPercentage / 100) * maxY;
 
+  const size = (scrollPercentage / 100) * 200 + 100;
+  square.style.width = `${size}px`;
+  square.style.height = `${size}px`;
+
   square.style.transform = `translate(${x}px, ${y}px)`;
 });
