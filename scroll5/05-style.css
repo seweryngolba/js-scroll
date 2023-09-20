@@ -2,16 +2,15 @@ body,
 html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: hidden;
+  height: 4000px;
+  overflow-x: hidden;
 }
 
 .container {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 4000px;
   background: black;
-  overflow: hidden;
 }
 
 .square {
@@ -19,7 +18,4 @@ html {
   background: orangered;
   width: 100px;
   height: 100px;
-  transition: transform 0.5s;
-  top: 10px;
-  left: 10px;
 }
